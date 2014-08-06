@@ -1,6 +1,3 @@
 base:
   '*':
-    mine_functions:
-      network.interfaces: []
-      grains.items: []
-
+    - saltmine
