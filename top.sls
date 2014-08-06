@@ -1,3 +1,5 @@
 base:
   '*':
     - saltmine
+  'hadoop-*':
+    - hadoop
