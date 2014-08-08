@@ -5,3 +5,5 @@ base:
     - hadoop
   '*spark*':
     - spark
+  '*zookeeper*':
+    - zookeeper
