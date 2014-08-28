@@ -1,4 +1,5 @@
 spark:
+  version: 'spark-2.0.2-bin-hadoop2'
   prefix: '/usr/lib/spark'
   recovery:
     mode: 'zookeeper'

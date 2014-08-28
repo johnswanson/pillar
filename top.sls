@@ -1,5 +1,6 @@
 base:
   '*':
+    - java
     - saltmine
   '*hadoop*':
     - hadoop
