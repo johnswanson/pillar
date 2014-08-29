@@ -2,9 +2,12 @@ base:
   '*':
     - java
     - saltmine
-  '*hadoop*':
+  'role:(hadoop_slave|hadoop_master)':
+    - match: grain
     - hadoop
-  '*spark*':
+  'role:(spark_client|spark_master)':
+    - match: grain
     - spark
-  '*zookeeper*':
+  'role:zookeeper':
+    - match: grain
     - zookeeper
