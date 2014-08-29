@@ -1,7 +1,7 @@
 # java_home: /usr/lib/java
 
 hadoop:
-  version: apache-2.2.0
+  version: apache-2.5.0
   users:
     hadoop: 6000
     hdfs: 6001
