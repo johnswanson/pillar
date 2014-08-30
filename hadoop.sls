@@ -1,4 +1,4 @@
-# java_home: /usr/lib/java
+java_home: /usr/lib/java
 
 hadoop:
   version: apache-2.5.0
